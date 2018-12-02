@@ -18,17 +18,17 @@ for module_name in ALL_MODULES:
         raise Exception("Can't have two modules with the same name! Please change one")
 
 START_TEXT = """
-Hey fam! I'm {}, and I'm here to bring some funny maymays into your life!
-Check out /help for a full list of my commands with detailed descriptions.
-You can also check out the sourcecode for the bot [here](https://github.com/skittles9823/skitt_bot)
+കടന്നു വരണം മിഷ്ട്ടർ... ഞാനാണ് {}, ഒരു കാര്യവും ഇല്ലാത്ത കുറച്ച് features ആണ് എനിക്കുള്ളത്..!
+അത് എന്തൊക്കെ ആണെന്ന് അറിയാൻ /help കൊടുത്താൽ മതിയാകും....
+ഇനി ഞാൻ പ്രവർത്തിക്കുന്നത് എങ്ങനെ ആണെന്ന് അറിയണമെങ്കിൽ [ഇവിടെ ഞെക്കുക](https://github.com/skittles9823/skitt_bot)
 """.format(dispatcher.bot.first_name)
 
 HELP_TEXT = """
-Ohai, I see you'd like to know what memes I have for sale.
-Well, here you go.
+ഞാൻ എന്തൊക്കെ ചെയ്യുമെന്ന് അറിയാൻ വന്നതായിരിക്കും അല്ലെ....
+എന്നാൽ കേട്ടോളു ഇതൊക്കെ ആണ് എനിക്ക് ചെയ്യാൻ പറ്റുന്നത്....
 
-*Commands:*
- _<reply> = replying to a message_
+*കമാന്റുകൾ*
+ _<reply> = reply to a message_
  _<args> = adding a message after the command_
  - `/🅱`: - _<reply>_ 
     *- replying to a message with replace a random character with the B emoji.*
