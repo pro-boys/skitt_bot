@@ -20,7 +20,7 @@ for module_name in ALL_MODULES:
 START_TEXT = """
 കടന്നു വരണം മിഷ്ട്ടർ... ഞാനാണ് {}, ഒരു കാര്യവും ഇല്ലാത്ത കുറച്ച് features ആണ് എനിക്കുള്ളത്..!
 അത് എന്തൊക്കെ ആണെന്ന് അറിയാൻ /help കൊടുത്താൽ മതിയാകും....
-ഇനി ഞാൻ പ്രവർത്തിക്കുന്നത് എങ്ങനെ ആണെന്ന് അറിയണമെങ്കിൽ [ഇവിടെ ഞെക്കുക](https://github.com/AbinPaulZackariah/skitt_bot)
+ഇനി ഞാൻ പ്രവർത്തിക്കുന്നത് എങ്ങനെ ആണെന്ന് അറിയണമെങ്കിൽ [ഇവിടെ ഞെക്കുക](https://github.com/pro-boys/skitt_bot)
 """.format(dispatcher.bot.first_name)
 
 HELP_TEXT = """
